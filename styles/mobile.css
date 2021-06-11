@@ -1,0 +1,149 @@
+
+@media screen and (max-width: 900px) {
+
+	.social-media-menu {
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+	.listinheader a {
+		font-size: 13px;
+	}
+
+	/* Listinheader block (top right) */
+	.block {
+		width: 15%;
+	}
+
+
+	#mylogo {
+		margin-left: 30%;
+	
+	}
+
+
+	#myphoto {
+    	height: 120px;
+    	padding-top: 14%;
+
+	}
+
+	.listinheader {
+		margin-top: -40px;
+		margin-left: -20px;
+		text-align: right;
+	}
+
+
+	.social-media-menu {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.project-container {
+		margin-top: 7%;
+	}
+
+	.project-button {
+    	color: #5E5C5C;
+    	border-radius: 35px;
+    	background: #FCECCB;
+    	font-family: Raleway;
+    	padding: 20px; 
+    	width: 100px;
+    	height: 3px; 
+    	margin: auto;
+    	margin-top: 25px;
+	}
+	
+	.leisure-button {
+		color: #5E5C5C;
+		border-radius: 35px;
+		background: #FCECCB;
+		font-family: Raleway;
+		padding: 20px; 
+		width: 100px;
+		height: 3px; 
+		margin: auto;
+		text-align: center;
+	
+	}
+
+	#rcorners1 {
+		margin-top: -6px;
+		font-size: 13px;
+
+	}
+
+	#rcorners2 {
+		margin-top: -6px;
+		font-size: 13px;
+
+	}
+
+	.photo-block p {
+		font-size: 10px;
+	}
+
+
+	#paragraph1 {
+		color: #78B4B6;
+		font-family: Raleway;
+		display:inline-block;
+		font-size: 15px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	.big {
+    color: #5E5C5C;
+    font-family: Neue Haas Grotesk Text Pro;
+    display:inline-block;
+    font-size: 19px;
+	font-weight: 500;
+	
+	}
+
+	#paragraph5 {
+		color: #F16F60;
+		font-family: Raleway;
+		display:inline-block;
+		font-size: 10px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	#paragraph6 {
+		color: #F16F60;
+		font-family: Raleway;
+		display:inline-block;
+		font-size: 10px;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+
+	#Footertext{
+		color: #5E5C5C;
+		font-family: Poppins;
+		display:inline-block;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 35px;
+	}
+
+	.online_view {
+		margin-top: 40px;
+		padding: 5px 10px;
+		background-color: transparent;
+		color: #C0392B;
+		outline:none;
+		font-size: 60%;
+	  }
+
+
+
+}

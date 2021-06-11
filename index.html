@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yu Fang's Site</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="icon" href = "./Mylogo.svg">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Container">
+        <div class="row justify-content-md-center responsive-pad"></div>
+
+        <!-- This is the header -->
+        <div class="Header" >
+            
+            <div class="i-block">
+                <img src="Mylogo.svg" id="mylogo"> 
+            </div>
+
+            <div class="listinheader">
+                <div class="block"><a href = "#About_link">About</a></div> 
+                <div class="block"><a href = "#Projects_link">Projects</a></div>
+                <!-- <div class="block"><a target="_blank" href = "https://www.dropbox.com/s/z8yse6lcpup25vt/Yu%20Fang%27s%20Resume.pdf?dl=0"> Resume</a></div>  -->
+                <div class="block"><a target="_blank" href = "./YuFang-Resume.pdf"> Resume</a></div>
+                <div class="block"><a href = "#Footer_link">Contact</a></div>
+              </div>      
+        </div>
+                                                                
+        <div class="Profile">
+            <p id="About_link"></p>
+            <div class="photo-container">
+                <img src="Myphoto.svg" id="myphoto"> <br>
+                <p id = "paragraph1">Hi, I am Yu Fang</p> <br>
+                <p class = "big" id="paragraph2">I love designing, and</p> <br>
+                <p class = "big" id="paragraph3">bridging the gap between</p> <br>
+                <p class = "big" id="paragraph4">technology and people.</p> <br>
+                <p id = "paragraph5">A <span style="color:#D07460">Technology Consultant</span> and aspiring</p> <br>
+                <p id = "paragraph6"><span style="color:#D07460">UX Designer</span> based in <span style="color:#D07460">Singapore</span></p> <br>
+                <!-- to link and direct on click from project word in header -->
+                <p id= "Projects_link"></p>
+                <div class="project-button"> 
+                    <p id="rcorners1">My Projects</p></div>
+
+            </div>
+
+
+        <div class="project-container">
+
+            <!-- Govtech design challenge    -->  
+            <div class="photo-block portfolio-project" id="portfoliogovtech-project-1">
+                <img src="./img/govtechproj.jpg">
+                <div class="project-description">
+                    <p><p1 style="color:#D07460;font-size:12px;">GovTech Design Challenge</p1> <br> View Project</p> 
+                </div>
+            </div>
+
+            <div class="photo-block portfolio-project" id="instagram-project-1">
+                <img src="./img/Proj1.jpg">
+                <div class="project-description">
+                    <p><p1 style="color:#D07460;font-size:12px;">Instagram Redesign</p1> <br> View Project</p> 
+                </div>
+            </div>
+ 
+
+            <!-- <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14455079-Portfolio-Website">    -->
+            <div class="photo-block portfolio-project" id="portfolio-project-1">
+                <img src="./img/Proj3.jpg">
+                <div class="project-description">
+                    <p><p1 style="color:#D07460;font-size:12px;">Personal Portfolio Web Design</p1> <br> View Project</p> 
+                </div>
+            </div>
+<!--
+            <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14443196-E-commerce-Website">
+                <img src="./img/Proj2.jpg">
+                <div class="project-description">
+                    <p> <p1 style="color:#D07460;font-size:12px;">E-commerce Web Design</p1> <br>View on Dribbble</p> 
+                </div>
+            </a>
+ -->
+        </div>
+
+        <br>
+
+        </div>
+
+        <br>
+        <p id="Footer_link"></p>
+        <div class="Footer" >
+            <p id = "Footertext">Lets Chat!</p><br>
+
+            <div class="social-media-menu"> 
+                <a id="mail-icon" target="_blank" href="mailto:neoyufangs@gmail.com"><div><i class="fa fa-envelope"></i></div></a>
+                <a id="dribbble-icon" target="_blank" href="https://dribbble.com/yufanggs"><div><i class="fa fa-dribbble"></i></div></a>
+                <a id="linkedin-icon" target="_blank" href="https://www.linkedin.com/in/yu-fang-neo-3bb491137/"><div><i class="fa fa-linkedin"></i></div></a>
+                <a id="github-icon" target="_blank" href="https://github.com/yufanggs"><div><i class="fa fa-github"></i></div></a>
+            </div>
+
+            <p id = "Footertextcopyright">Yu Fang | 2020</p><br>
+
+
+        </div>
+
+    <!-- The Modal Image (Pop up image) : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img -->
+
+    <div id="modal-0" class="modal">
+        <img class="modal-content" id="img0" src="Portfolioproject/govtechchallenge.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfoliogovtech-project-1");
+        var modal0 = document.getElementById("modal-0");
+        portfolioProject1.onclick = function(){
+          modal0.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal0.onclick = function() { 
+          modal0.style.display = "none";
+        }
+    </script>
+
+    <div id="modal-1" class="modal">
+        <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfolio-project-1");
+        var modal1 = document.getElementById("modal-1");
+        portfolioProject1.onclick = function(){
+          modal1.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal1.onclick = function() { 
+          modal1.style.display = "none";
+        }
+    </script>
+
+
+    <div id="modal-1" class="modal">
+        <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfolio-project-1");
+        var modal1 = document.getElementById("modal-1");
+        portfolioProject1.onclick = function(){
+          modal1.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal1.onclick = function() { 
+          modal1.style.display = "none";
+        }
+    </script>
+
+        <div id="modal-1" class="modal">
+        <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfolio-project-1");
+        var modal1 = document.getElementById("modal-1");
+        portfolioProject1.onclick = function(){
+          modal1.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal1.onclick = function() { 
+          modal1.style.display = "none";
+        }
+    </script>
+
+    <div id="modal-2" class="modal">
+        <img class="modal-content" id="img02" src="Portfolioproject/Instaredesign.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("instagram-project-1");
+        var modal2 = document.getElementById("modal-2");
+        portfolioProject1.onclick = function(){
+            modal2.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal2.onclick = function() { 
+        modal2.style.display = "none";
+        }
+    </script>
+
+
+</body>
+</html>
